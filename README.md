@@ -75,6 +75,7 @@ The model achieves strong classification performance, often exceeding **95% accu
 
 - `faultDetection_mainCode.mlx`: Complete end-to-end implementation (single file)
 - Function sections within the code:
+- - `AirCompressorDataset`: the dataset
   - `extractFeaturesFromAudio`: Extracts MFCCs and deltas from `.wav` files
   - `balanceDataset`: Augments dataset with jittered signals
   - `buildLSTM`: Defines the BiLSTM-based model architecture
